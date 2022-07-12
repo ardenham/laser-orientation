@@ -19,3 +19,12 @@ add_numbers <- function(number_1, number_2) {number_1 + number_2}
 add_numbers(5,4)
 add_numbers(4)
 add_numbers(5,6)
+
+library(knitr)
+
+remove.packages("rlang")
+install.packages("rlang")
+library(tidyverse)
+
+install.packages("dplyr")
+library(tidyverse)
